@@ -21,7 +21,12 @@ struct ContentView: View {
         SleepDataPoint(
             day: "Wed",
             hours: 10),
-                
+        
+        SleepDataPoint(
+            day: "Wed",
+            hours: 2,
+            type: "Niggeritis"),
+        
         SleepDataPoint(
             day: "Thu",
             hours: 6),
@@ -39,6 +44,11 @@ struct ContentView: View {
             day: "Fri",
             hours: 2,
             type: "Accidental"),
+        
+        SleepDataPoint(
+            day: "Fri",
+            hours: 2,
+            type: "Niggeritis"),
                 
         SleepDataPoint(
             day: "Sat",
@@ -49,23 +59,32 @@ struct ContentView: View {
             hours: 7)]
     
     var body: some View {
-        
-        Chart {
-            
-            ForEach (data) { d in
-                
-                BarMark(x: .value("Day", d.day),
-                        y: .value("Hours", d.hours))
-                .annotation (position: .overlay) {
-                    Text(String(d.hours))
-                        .foregroundColor(.white)
+        ScrollView{
+            VStack {
+                Chart {
+                    
+                    ForEach (data) { d in
+                        
+                        BarMark(x: .value("Day", d.day),
+                                y: .value("Hours", d.hours))
+                        .annotation (position: .overlay) {
+                            Text(String(d.hours))
+                                .foregroundColor(.white)
+                        }
+                        .foregroundStyle(by: .value("Type", d.type))
+                    }
+                    RuleMark(y: .value("Average", 1.5))
+                        .foregroundStyle(.red)
+                        .annotation(position: .leading) {
+                            Text("Average 8")
+                                .foregroundColor(.red)
+                        }
                 }
-                .foregroundStyle(by: .value("Type", d.type))
+                .chartYScale(range: .plotDimension(padding: 60))
+                .aspectRatio(1,contentMode: .fit)
+                .padding()
             }
-            
         }
-        .chartYScale(range: .plotDimension(padding: 60))
-        .padding()
     }
 }
 

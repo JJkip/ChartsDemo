@@ -12,6 +12,7 @@
 		8303F0362A6F7661002EC0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8303F0352A6F7661002EC0B3 /* Assets.xcassets */; };
 		8303F0392A6F7661002EC0B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8303F0382A6F7661002EC0B3 /* Preview Assets.xcassets */; };
 		8303F0402A6F7697002EC0B3 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303F03F2A6F7697002EC0B3 /* DataPoint.swift */; };
+		DDDA74192A8E6FCD00CCC408 /* StaticChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74182A8E6FCD00CCC408 /* StaticChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8303F0352A6F7661002EC0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8303F0382A6F7661002EC0B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8303F03F2A6F7697002EC0B3 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		DDDA74182A8E6FCD00CCC408 /* StaticChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		8303F0302A6F7660002EC0B3 /* ChartsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DDDA74152A8E6F1600CCC408 /* Basics */,
 				8303F0312A6F7660002EC0B3 /* ChartsDemoApp.swift */,
 				8303F0332A6F7660002EC0B3 /* ContentView.swift */,
 				8303F03F2A6F7697002EC0B3 /* DataPoint.swift */,
@@ -68,6 +71,14 @@
 				8303F0382A6F7661002EC0B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDDA74152A8E6F1600CCC408 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA74182A8E6FCD00CCC408 /* StaticChartView.swift */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8303F0402A6F7697002EC0B3 /* DataPoint.swift in Sources */,
+				DDDA74192A8E6FCD00CCC408 /* StaticChartView.swift in Sources */,
 				8303F0342A6F7660002EC0B3 /* ContentView.swift in Sources */,
 				8303F0322A6F7660002EC0B3 /* ChartsDemoApp.swift in Sources */,
 			);
