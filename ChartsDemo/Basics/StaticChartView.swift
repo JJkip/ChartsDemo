@@ -8,6 +8,7 @@
 import SwiftUI
 import Charts
 
+
 struct StaticChartView: View {
     @State private var averageIsShown = false
     
