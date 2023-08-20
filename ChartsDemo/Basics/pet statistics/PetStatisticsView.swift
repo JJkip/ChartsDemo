@@ -55,8 +55,38 @@ struct LineChartView: View {
     }
 }
 
+struct RefinedLineChartView: View {
+    struct PetDataSeries: Identifiable {
+        let type: String
+        let petData: [PetData]
+        var id: String { type }
+    }
+    let catData = PetData.catExample
+    let dogData = PetData.dogExamples
+    var data: [PetDataSeries] {
+        [PetDataSeries(type:"cat", petData: catData),
+         PetDataSeries(type:"dog", petData: dogData)]
+    }
+    var body: some View {
+        Chart(data) { dataSeries in
+            ForEach(dataSeries.petData) { data in
+                LineMark(x: .value("Year", data.year),
+                        y: .value("Population", data.population)
+                )
+            }
+            .foregroundStyle(by: .value("Pet type", dataSeries.type))
+            .symbol(by: .value("Pet type",dataSeries.type))
+        }
+        .chartXScale(domain: 1998...2024)
+        .aspectRatio(1,contentMode: .fit)
+        .padding()
+    }
+}
+
+
 struct PetStatisticsView_Previews: PreviewProvider {
     static var previews: some View {
         LineChartView()
+        RefinedLineChartView()
     }
 }
