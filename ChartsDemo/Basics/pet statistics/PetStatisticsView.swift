@@ -32,7 +32,7 @@ struct PetStatisticsView: View {
     }
 }
 
-struct SecondPetStatisticsView: View {
+struct LineChartView: View {
     let catData = PetData.catExample
     let dogData = PetData.dogExamples
     var data: [(type: String, petData:[PetData])] {
@@ -57,6 +57,6 @@ struct SecondPetStatisticsView: View {
 
 struct PetStatisticsView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondPetStatisticsView()
+        LineChartView()
     }
 }
