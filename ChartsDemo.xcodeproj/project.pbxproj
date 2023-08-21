@@ -19,6 +19,7 @@
 		DDDA74252A92AA9A00CCC408 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74242A92AA9A00CCC408 /* BarChartView.swift */; };
 		DDDA74302A93FF9F00CCC408 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */; };
 		DDDA74322A9400BA00CCC408 /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74312A9400BA00CCC408 /* PointChartView.swift */; };
+		DDDA74342A94010C00CCC408 /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74332A94010C00CCC408 /* AreaChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DDDA74242A92AA9A00CCC408 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		DDDA74312A9400BA00CCC408 /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
+		DDDA74332A94010C00CCC408 /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				DDDA74242A92AA9A00CCC408 /* BarChartView.swift */,
 				DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */,
 				DDDA74312A9400BA00CCC408 /* PointChartView.swift */,
+				DDDA74332A94010C00CCC408 /* AreaChartView.swift */,
 			);
 			path = "chart types";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8303F0402A6F7697002EC0B3 /* DataPoint.swift in Sources */,
+				DDDA74342A94010C00CCC408 /* AreaChartView.swift in Sources */,
 				DDDA74192A8E6FCD00CCC408 /* StaticChartView.swift in Sources */,
 				8303F0342A6F7660002EC0B3 /* ContentView.swift in Sources */,
 				DDDA741E2A90F6C100CCC408 /* PetData.swift in Sources */,
