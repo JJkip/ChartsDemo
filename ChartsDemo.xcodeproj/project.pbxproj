@@ -18,6 +18,7 @@
 		DDDA74222A914C2600CCC408 /* PetStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74212A914C2600CCC408 /* PetStatisticsView.swift */; };
 		DDDA74252A92AA9A00CCC408 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74242A92AA9A00CCC408 /* BarChartView.swift */; };
 		DDDA74302A93FF9F00CCC408 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */; };
+		DDDA74322A9400BA00CCC408 /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74312A9400BA00CCC408 /* PointChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DDDA74212A914C2600CCC408 /* PetStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatisticsView.swift; sourceTree = "<group>"; };
 		DDDA74242A92AA9A00CCC408 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		DDDA74312A9400BA00CCC408 /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				DDDA74242A92AA9A00CCC408 /* BarChartView.swift */,
 				DDDA742F2A93FF9F00CCC408 /* LineChartView.swift */,
+				DDDA74312A9400BA00CCC408 /* PointChartView.swift */,
 			);
 			path = "chart types";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				DDDA74302A93FF9F00CCC408 /* LineChartView.swift in Sources */,
 				8303F0322A6F7660002EC0B3 /* ChartsDemoApp.swift in Sources */,
 				DDDA74222A914C2600CCC408 /* PetStatisticsView.swift in Sources */,
+				DDDA74322A9400BA00CCC408 /* PointChartView.swift in Sources */,
 				DDDA74252A92AA9A00CCC408 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
