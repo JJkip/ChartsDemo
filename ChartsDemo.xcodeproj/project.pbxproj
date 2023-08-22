@@ -22,6 +22,7 @@
 		DDDA74342A94010C00CCC408 /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74332A94010C00CCC408 /* AreaChartView.swift */; };
 		DDDA74362A94017F00CCC408 /* RuleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74352A94017F00CCC408 /* RuleChartView.swift */; };
 		DDDA74382A94044E00CCC408 /* RectangleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74372A94044E00CCC408 /* RectangleChartView.swift */; };
+		DDDA743A2A94060E00CCC408 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74392A94060E00CCC408 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		DDDA74332A94010C00CCC408 /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
 		DDDA74352A94017F00CCC408 /* RuleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleChartView.swift; sourceTree = "<group>"; };
 		DDDA74372A94044E00CCC408 /* RectangleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartView.swift; sourceTree = "<group>"; };
+		DDDA74392A94060E00CCC408 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				DDDA74332A94010C00CCC408 /* AreaChartView.swift */,
 				DDDA74352A94017F00CCC408 /* RuleChartView.swift */,
 				DDDA74372A94044E00CCC408 /* RectangleChartView.swift */,
+				DDDA74392A94060E00CCC408 /* PieChartView.swift */,
 			);
 			path = "chart types";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDA743A2A94060E00CCC408 /* PieChartView.swift in Sources */,
 				8303F0402A6F7697002EC0B3 /* DataPoint.swift in Sources */,
 				DDDA74382A94044E00CCC408 /* RectangleChartView.swift in Sources */,
 				DDDA74342A94010C00CCC408 /* AreaChartView.swift in Sources */,
